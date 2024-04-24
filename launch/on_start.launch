@@ -1,0 +1,7 @@
+<launch>
+
+    <group ns="test_node">
+        <node pkg="car" name="test" type="test.py" output="screen">
+        </node>
+    </group> 
+</launch>
